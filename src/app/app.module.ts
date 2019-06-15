@@ -6,19 +6,21 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { PaletteComponent } from './palette/palette.component';
+import { CanvasComponent } from './canvas/canvas.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: PaletteComponent },
+      { path: '', component: CanvasComponent },
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
-    PaletteComponent
+    PaletteComponent,
+    CanvasComponent
   ],
   bootstrap: [ AppComponent ]
 })

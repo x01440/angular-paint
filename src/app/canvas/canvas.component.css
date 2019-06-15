@@ -1,0 +1,5 @@
+.canvas {
+  border: 1px solid #555;
+  box-shadow: 5px 10px #888888;
+  min-height: 400px;
+}
